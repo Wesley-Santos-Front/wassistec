@@ -1,0 +1,47 @@
+.head{
+  display: flex;
+  width: 100%;
+  height: 69px;
+  background-color: #fff;
+  box-shadow: 15px 8px 8px rgba(0, 0, 0, 0.1);
+}
+.log {
+  margin-left: 70px;
+  width: 69px;
+  height: 69px;
+  border-radius: 50%;
+}
+.log img {
+  width: 69px;
+  height: 69px;
+  border-radius: 50%;
+  transition: all 0.3s ease-out;
+}
+.log img:hover {
+  margin-top: -5px;
+  cursor: pointer;
+  width: 79px;
+  height: 79px;
+
+}
+.hiperl {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 650px;
+  position: absolute;
+  right: 130px;
+  margin-top: 23px;
+}
+
+.hiperl a {
+text-decoration: none;
+color: #4A5568;
+font-size: 16px;
+font-weight: 500;
+transition: all 0.2s ease-out;
+}
+.hiperl a:hover {
+opacity: 0.79;
+}
