@@ -2,6 +2,7 @@ import style from './orcamento.module.css';
 import { useState } from "react";
 
 function Orcamento(){
+
   const dados = [
     { tipo: "Tela", marca: "Sansung", modelo: "Galaxy A01 core", valor: 200 },
     { tipo: "Tela", marca: "Sansung", modelo: "Galaxy A02", valor: 200 },
@@ -200,6 +201,10 @@ function Orcamento(){
   const modelosFiltrados = dados.filter(
     (item) => item.tipo === tipoSelecionado && item.marca === marcaSelecionada
   );
+
+  const numero = "5196507613"; // coloque seu número com DDI 55 (Brasil)
+  const mensagem = "Olá! Vim pelo site e gostaria de um orçamento.";
+  const link = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
   return (
     
       <div className={style.tit}>
@@ -220,7 +225,8 @@ function Orcamento(){
         </select>
 
         <select
-          value={marcaSelecionada}
+     
+     value={marcaSelecionada}
           onChange={(e) => setMarcaSelecionada(e.target.value)}
         >
           {marcasUnicas.map((marca) => (
@@ -246,9 +252,11 @@ function Orcamento(){
           ))}
         </tbody>
       </table>
+      <a href={link} target="_blank" rel="noopener noreferrer">
       <div className={style.butt}>
                        <button>Solicitar orçamento personalizado</button>
                        </div>
+                       </a>
       </div>
     </div>
   )

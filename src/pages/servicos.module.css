@@ -1,6 +1,6 @@
 .tit {
   display: inline-block;
-  margin-top: 80px;
+  margin-top: 50px;
   margin-left: 70px;
 }
 .tit h2 {
@@ -15,14 +15,14 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 70px auto 0 ;
+  margin: 80px auto 0 ;
 }
 .indiv {
   display: block;
   width: 120px;
 }
 .indiv p {
-  color: #007180;
+  color: rgba(1, 48, 54, 0.90);
   text-align: center;
 }
 .icon {

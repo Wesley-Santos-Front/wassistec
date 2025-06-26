@@ -32,7 +32,7 @@
 }
 .let p{
   font-size: 18px;
-  color: #007180;
+  color: rgba(1, 48, 54, 0.90);
   margin-top: -10px;
 }
 .let p:last-child{

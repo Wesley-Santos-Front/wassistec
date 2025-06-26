@@ -1,0 +1,53 @@
+.tit {
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 70px;
+}
+.tit h2 {
+  color: #007180;
+  text-align: justify;
+  font-size: 40px;
+  font-weight: bold;
+}
+.maps {
+  display: block;
+  border: 2px solid rgba(1, 48, 54, 0.70);
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 600px;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 300px;
+}
+.conta {
+  display: block;
+  
+}
+.flexIcon {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+ .flexIcon p {
+  margin-top: 2.3px;
+  margin-left: 5px;
+  color: #013036;
+  font-size: 15px;
+
+ }
+ .iconWhat {
+  color: green;
+  font-size: 25px;
+ }
+ .iconEmail {
+  color: #CB3C2E;
+  font-size: 25px;
+ }
+ .iconInsta {
+  color:#D033A8;
+  font-size: 25px;
+ }
+
+

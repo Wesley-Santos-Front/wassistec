@@ -1,6 +1,6 @@
 .tit {
   display: inline-block;
-  margin-top: 80px;
+  margin-top: 50px;
   margin-left: 70px;
 }
 .tit h2 {
@@ -26,7 +26,7 @@
   font-weight: bold;
   text-align: center;
   text-align: center;
-  color: #007180;
+  color: rgba(1, 48, 54, 0.90);
   border: none;
   cursor: pointer;
 }
@@ -34,13 +34,13 @@
   margin-left: 85px;
 }
 .opt1 option{
-  color: #013036;
+  color: rgba(1, 48, 54, 0.90);
   font-size: 14px;
   text-align: center;
   cursor: pointer;
 }
 .opt2 option{
-  color: #013036;
+  color: rgba(1, 48, 54, 0.90);
   font-size: 14px;
   cursor: pointer;
 }
@@ -61,7 +61,7 @@ table {
 .mai {
   position: relative;
   left: 25px;
-  color: #013036;
+  color: rgba(1, 48, 54, 0.90);
   margin-top: 10px;
   padding: 5px;
 }
