@@ -13,9 +13,11 @@ function Home(){
       <p>Reparos em smartphones com</p>
       <p>rapidez e garantia.</p>
       </div>
+      <a href='./servicos'>
       <div className={style.butt}>
       <button>Ver serviços</button>
       </div>
+      </a>
     </div>
     <div className={style.imag}>
       <img src={Logo2} alt='logo2'/>

@@ -1,3 +1,12 @@
+@keyframes links {
+  from {
+  }
+  to {
+    border-bottom: 2px solid #007180;
+  }
+  
+}
+
 .head{
   display: flex;
   width: 100%;
@@ -42,6 +51,11 @@ font-size: 16px;
 font-weight: 500;
 transition: all 0.2s ease-out;
 }
+.hiperl a:focus {
+  border-bottom: 2px solid #007180;
+  color: rgba(1, 48, 54, 0.80);
+}
 .hiperl a:hover {
-opacity: 0.79;
+  animation: links 0.4s forwards;
+  opacity: 0.89;
 }

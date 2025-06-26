@@ -21,6 +21,9 @@
   right: 0;
   height: 300px;
 }
+.maps:hover {
+  opacity: 0.9;
+}
 .conta {
   display: block;
   

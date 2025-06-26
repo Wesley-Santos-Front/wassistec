@@ -4,6 +4,7 @@ import { useState } from "react";
 function Orcamento(){
 
   const dados = [
+    { tipo: "Selecione", marca: "Marca"},
     { tipo: "Tela", marca: "Sansung", modelo: "Galaxy A01 core", valor: 200 },
     { tipo: "Tela", marca: "Sansung", modelo: "Galaxy A02", valor: 200 },
     { tipo: "Tela", marca: "Sansung", modelo: "Galaxy A02s", valor: 220 },

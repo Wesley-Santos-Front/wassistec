@@ -42,9 +42,11 @@ function Servicos(){
             <p>E muito mais</p>
             </div>
            </div>
+           <a href='./orcamentos'>
            <div className={style.butt}>
                  <button>Ver orçamentos</button>
                  </div>
+                 </a>
            </div>
   )
 }
