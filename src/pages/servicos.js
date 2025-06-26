@@ -43,7 +43,7 @@ function Servicos(){
             </div>
            </div>
            <div className={style.butt}>
-                 <button>Solicitar orçamentos</button>
+                 <button>Ver orçamentos</button>
                  </div>
            </div>
   )
