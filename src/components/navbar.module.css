@@ -7,6 +7,171 @@
   
 }
 
+@media screen and (min-width: 710px){
+  .head{
+  display: flex;
+  width: 100%;
+  height: 69px;
+  background-color: #fff;
+  box-shadow: 15px 8px 8px rgba(0, 0, 0, 0.1);
+}
+.log {
+  margin-left: 70px;
+  width: 69px;
+  height: 69px;
+  border-radius: 50%;
+}
+.log img {
+  width: 69px;
+  height: 69px;
+  border-radius: 50%;
+  transition: all 0.3s ease-out;
+}
+.log img:hover {
+  margin-top: -5px;
+  cursor: pointer;
+  width: 79px;
+  height: 79px;
+
+}
+.hiperl {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 500px;
+  position: absolute;
+  right: 75px;
+  margin-top: 23px;
+}
+
+.hiperl a {
+text-decoration: none;
+color: #4A5568;
+font-size: 16px;
+font-weight: 500;
+transition: all 0.2s ease-out;
+}
+.hiperl a:focus {
+  border-bottom: 2px solid #007180;
+  color: rgba(1, 48, 54, 0.80);
+}
+.hiperl a:hover {
+  animation: links 0.4s forwards;
+  opacity: 0.89;
+}
+}
+
+@media screen and (min-width: 842px){
+  .head{
+  display: flex;
+  width: 100%;
+  height: 69px;
+  background-color: #fff;
+  box-shadow: 15px 8px 8px rgba(0, 0, 0, 0.1);
+}
+.log {
+  margin-left: 70px;
+  width: 69px;
+  height: 69px;
+  border-radius: 50%;
+}
+.log img {
+  width: 69px;
+  height: 69px;
+  border-radius: 50%;
+  transition: all 0.3s ease-out;
+}
+.log img:hover {
+  margin-top: -5px;
+  cursor: pointer;
+  width: 79px;
+  height: 79px;
+
+}
+.hiperl {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 500px;
+  position: absolute;
+  right: 75px;
+  margin-top: 23px;
+}
+
+.hiperl a {
+text-decoration: none;
+color: #4A5568;
+font-size: 16px;
+font-weight: 500;
+transition: all 0.2s ease-out;
+}
+.hiperl a:focus {
+  border-bottom: 2px solid #007180;
+  color: rgba(1, 48, 54, 0.80);
+}
+.hiperl a:hover {
+  animation: links 0.4s forwards;
+  opacity: 0.89;
+}
+
+}
+@media screen and (min-width: 1000px){
+  .head{
+  display: flex;
+  width: 100%;
+  height: 69px;
+  background-color: #fff;
+  box-shadow: 15px 8px 8px rgba(0, 0, 0, 0.1);
+}
+.log {
+  margin-left: 70px;
+  width: 69px;
+  height: 69px;
+  border-radius: 50%;
+}
+.log img {
+  width: 69px;
+  height: 69px;
+  border-radius: 50%;
+  transition: all 0.3s ease-out;
+}
+.log img:hover {
+  margin-top: -5px;
+  cursor: pointer;
+  width: 79px;
+  height: 79px;
+
+}
+.hiperl {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 540px;
+  position: absolute;
+  right: 110px;
+  margin-top: 23px;
+}
+
+.hiperl a {
+text-decoration: none;
+color: #4A5568;
+font-size: 16px;
+font-weight: 500;
+transition: all 0.2s ease-out;
+}
+.hiperl a:focus {
+  border-bottom: 2px solid #007180;
+  color: rgba(1, 48, 54, 0.80);
+}
+.hiperl a:hover {
+  animation: links 0.4s forwards;
+  opacity: 0.89;
+}
+}
+@media screen and (min-width: 1140px){
 .head{
   display: flex;
   width: 100%;
@@ -58,4 +223,5 @@ transition: all 0.2s ease-out;
 .hiperl a:hover {
   animation: links 0.4s forwards;
   opacity: 0.89;
+}
 }

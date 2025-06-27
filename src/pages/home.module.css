@@ -1,3 +1,154 @@
+
+@media screen and (min-width: 812px) {
+  .flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 386px;
+  margin-top: 45px;
+}
+.let {
+  display: inline-block;
+  margin-top: -60px;
+  margin-left: 72px;
+}
+.tit {
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: 70px;
+}
+.tit h2 {
+  color: #007180;
+  text-align: justify;
+  font-size: 36px;
+  font-weight: bold;
+}
+.tit h2:last-child{
+  margin-top: -30px;
+}
+.let p{
+  font-size: 15px;
+  color: rgba(1, 48, 54, 0.90);
+  margin-top: -12px;
+}
+.let p:last-child{
+  margin-top: -10px;
+}
+
+.butt button {
+margin-left: 70px;
+width: 165px;
+height: 54px;
+border-radius: 8px;
+border: none;
+background-color: #04acc2;
+color: #fff;
+font-size: 16px;
+cursor: pointer;
+transition: all 0.2s ease-out;
+}
+.butt button:hover {
+  opacity: 0.79;
+}
+
+.imag img {
+  margin-top: 132px;
+  width: 300px;
+  height: 320px;
+  margin-right: 80px;
+
+}
+.imag h2 {
+  color: #007180;
+  font-size: 26px;
+  margin-top: -2px;
+  margin-left: 76px;
+}
+}
+@media screen and (min-width: 1000px) {
+  .flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 422px;
+  margin-top: 15px;
+}
+.let {
+  display: inline-block;
+  margin-top: -60px;
+  margin-left: 72px;
+}
+.tit {
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: 70px;
+}
+.tit h2 {
+  color: #007180;
+  text-align: justify;
+  font-size: 40px;
+  font-weight: bold;
+}
+.tit h2:last-child{
+  margin-top: -30px;
+}
+.let p{
+  font-size: 17px;
+  color: rgba(1, 48, 54, 0.90);
+  margin-top: -12px;
+}
+.let p:last-child{
+  margin-top: -10px;
+}
+
+.butt button {
+margin-left: 70px;
+width: 165px;
+height: 54px;
+border-radius: 8px;
+border: none;
+background-color: #04acc2;
+color: #fff;
+font-size: 16px;
+cursor: pointer;
+transition: all 0.2s ease-out;
+}
+.butt button:hover {
+  opacity: 0.79;
+}
+
+.imag img {
+  margin-top: 97px;
+  width: 350px;
+  height: 350px;
+  margin-right: 120px;
+
+}
+.imag h2 {
+  color: #007180;
+  font-size: 26px;
+  margin-top: -2px;
+  margin-left: 98px;
+}
+}
+
+@media screen and (min-width: 1140px){
+  
+
 .flex {
   display: flex;
   flex-direction: row;
@@ -10,6 +161,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   height: 450px;
+  margin-top: 0px;
 }
 .let {
   display: inline-block;
@@ -65,4 +217,5 @@ transition: all 0.2s ease-out;
   font-size: 32px;
   margin-top: -2px;
   margin-left: 106px;
+}
 }
