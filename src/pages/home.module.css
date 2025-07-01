@@ -1,28 +1,196 @@
 
-@media screen and (min-width: 812px) {
+@media screen and (min-width: 490px) {
   .flex {
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
   flex-wrap: wrap;
-  justify-content: space-between;
+  margin: 0 auto;
+  width: 100%;
 }
 .container1 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
+  width: 350px;
+  margin: 25px auto 0;
+
+}
+.let {
+  display: inline-block;
+  margin-top: -5px;
+}
+.tit {
+  display: inline-block;
+  margin-top: -50px;
+}
+.tit h2 {
+  color: #007180;
+  text-align: center;
+  font-size: 31px;
+  font-weight: bold;
+}
+.tit h2:last-child{
+  margin-top: -30px;
+}
+.let p{
+  font-size: 13px;
+  color: rgba(1, 48, 54, 0.90);
+  margin-top: -12px;
+  text-align: center;
+}
+.let p:last-child{
+  margin-top: -10px;
+}
+.butt {
+ display: block;
+ width: 350px;
+ text-align: center;
+ margin-top: 25px;
+
+}
+.butt button {
+text-align: center;
+width: 165px;
+height: 54px;
+border-radius: 8px;
+border: none;
+background-color: #04acc2;
+color: #fff;
+font-size: 16px;
+cursor: pointer;
+transition: all 0.2s ease-out;
+}
+.butt button:hover {
+  opacity: 0.79;
+}
+.imag {
+  display: block;
+  width: 230px;
+  margin: 0 auto 0 ;
+}
+.imag img {
+ margin: 30px auto 0;
+  width: 230px;
+  height: 230px;
+
+}
+.imag h2 {
+  color: #007180;
+  font-size: 23px;
+  margin-top: -2px;
+  text-align: center;
+}
+}
+@media screen and (min-width: 712px) {
+  .flex {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 100%;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 350px;
+  margin: 25px auto 0;
+
+}
+.let {
+  display: inline-block;
+  margin-top: -5px;
+}
+.tit {
+  display: inline-block;
+  margin-top: -50px;
+}
+.tit h2 {
+  color: #007180;
+  text-align: center;
+  font-size: 31px;
+  font-weight: bold;
+}
+.tit h2:last-child{
+  margin-top: -30px;
+}
+.let p{
+  font-size: 13px;
+  color: rgba(1, 48, 54, 0.90);
+  margin-top: -12px;
+  text-align: center;
+}
+.let p:last-child{
+  margin-top: -10px;
+}
+.butt {
+ display: block;
+ width: 350px;
+ text-align: center;
+ margin-top: 25px;
+
+}
+.butt button {
+text-align: center;
+width: 165px;
+height: 54px;
+border-radius: 8px;
+border: none;
+background-color: #04acc2;
+color: #fff;
+font-size: 16px;
+cursor: pointer;
+transition: all 0.2s ease-out;
+}
+.butt button:hover {
+  opacity: 0.79;
+}
+.imag {
+  display: block;
+  width: 230px;
+  margin: 0 auto 0 ;
+}
+.imag img {
+ margin: 30px auto 0;
+  width: 230px;
+  height: 230px;
+
+}
+.imag h2 {
+  color: #007180;
+  font-size: 23px;
+  margin-top: -2px;
+  text-align: center;
+}
+}
+@media screen and (min-width: 812px) {
+  .flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: none;
+}
+.container1 {
+  position: absolute;
+  left: 70px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: auto;
   height: 386px;
   margin-top: 45px;
 }
 .let {
   display: inline-block;
   margin-top: -60px;
-  margin-left: 72px;
 }
 .tit {
   display: inline-block;
   margin-top: 100px;
-  margin-left: 70px;
 }
 .tit h2 {
   color: #007180;
@@ -37,13 +205,19 @@
   font-size: 15px;
   color: rgba(1, 48, 54, 0.90);
   margin-top: -12px;
+  text-align: justify;
 }
 .let p:last-child{
   margin-top: -10px;
 }
+.butt {
+ display: block;
+ width: 165px;
+ text-align: none;
+ margin-top: 0;
 
+}
 .butt button {
-margin-left: 70px;
 width: 165px;
 height: 54px;
 border-radius: 8px;
@@ -57,19 +231,24 @@ transition: all 0.2s ease-out;
 .butt button:hover {
   opacity: 0.79;
 }
-
+.imag {
+  display: inline-block;
+  width: 300px;
+  margin-right: 70px;
+}
 .imag img {
   margin-top: 132px;
   width: 300px;
   height: 320px;
-  margin-right: 80px;
 
 }
 .imag h2 {
+  display: block;
   color: #007180;
   font-size: 26px;
   margin-top: -2px;
-  margin-left: 76px;
+  text-align: justify;
+  margin-left: 79px;
 }
 }
 @media screen and (min-width: 1000px) {
@@ -90,12 +269,10 @@ transition: all 0.2s ease-out;
 .let {
   display: inline-block;
   margin-top: -60px;
-  margin-left: 72px;
 }
 .tit {
   display: inline-block;
   margin-top: 100px;
-  margin-left: 70px;
 }
 .tit h2 {
   color: #007180;
@@ -116,7 +293,6 @@ transition: all 0.2s ease-out;
 }
 
 .butt button {
-margin-left: 70px;
 width: 165px;
 height: 54px;
 border-radius: 8px;
@@ -130,7 +306,10 @@ transition: all 0.2s ease-out;
 .butt button:hover {
   opacity: 0.79;
 }
-
+.imag {
+  width: 350px;
+  margin-right: 70px;
+}
 .imag img {
   margin-top: 97px;
   width: 350px;
@@ -166,12 +345,10 @@ transition: all 0.2s ease-out;
 .let {
   display: inline-block;
   margin-top: -60px;
-  margin-left: 72px;
 }
 .tit {
   display: inline-block;
   margin-top: 100px;
-  margin-left: 70px;
 }
 .tit h2 {
   color: #007180;
@@ -191,7 +368,6 @@ transition: all 0.2s ease-out;
   margin-top: -10px;
 }
 .butt button {
-  margin-left: 70px;
 width: 170px;
 height: 59px;
 border-radius: 8px;
@@ -204,6 +380,10 @@ transition: all 0.2s ease-out;
 }
 .butt button:hover {
   opacity: 0.79;
+}
+.imag {
+  width: 400px;
+  margin-right: 70px;
 }
 .imag img {
   margin-top: 67px;

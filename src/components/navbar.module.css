@@ -6,8 +6,7 @@
   }
   
 }
-
-@media screen and (min-width: 710px){
+@media screen and (min-width: 490px) {
   .head{
   display: flex;
   width: 100%;
@@ -34,12 +33,84 @@
   height: 79px;
 
 }
+.menu {
+display: flex;
+position: absolute;
+right: 60px;
+}
+.menuBut{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-top: 16px;
+}
+.menuBut:hover {
+  opacity: 0.8;
+}
+.menuIcon {
+  font-size: 35px;
+  color: #007180;
+  transition: all 0.3s ease-out; 
+}
+.menuIcon:hover {
+  font-size: 40px;
+}
+.hiperl {
+  display: none;
+}
+
+.hiperl a {
+text-decoration: none;
+color: #4A5568;
+font-size: 15px;
+font-weight: 500;
+transition: all 0.2s ease-out;
+}
+.hiperl a:focus {
+  border-bottom: 2px solid #007180;
+  color: rgba(1, 48, 54, 0.80);
+}
+.hiperl a:hover {
+  animation: links 0.4s forwards;
+  opacity: 0.89;
+}
+}
+@media screen and (min-width: 712px){
+  .head{
+  display: flex;
+  width: 100%;
+  height: 69px;
+  background-color: #fff;
+  box-shadow: 15px 8px 8px rgba(0, 0, 0, 0.1);
+}
+.log {
+  margin-left: 70px;
+  width: 69px;
+  height: 69px;
+  border-radius: 50%;
+}
+.log img {
+  width: 69px;
+  height: 69px;
+  border-radius: 50%;
+  transition: all 0.3s ease-out;
+}
+.log img:hover {
+  margin-top: -5px;
+  cursor: pointer;
+  width: 79px;
+  height: 79px;
+
+}
+.menu {
+  display: none;
+}
 .hiperl {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 500px;
+  width: 420px;
   position: absolute;
   right: 75px;
   margin-top: 23px;
@@ -48,7 +119,7 @@
 .hiperl a {
 text-decoration: none;
 color: #4A5568;
-font-size: 16px;
+font-size: 15px;
 font-weight: 500;
 transition: all 0.2s ease-out;
 }
