@@ -1,13 +1,12 @@
 
 ::-webkit-scrollbar {
   width: 8px;
-  border: 1px solid rgba(1, 48, 54, 0.90);
-  padding: 0 2px 0 2px;
-}
+  }
   
 ::-webkit-scrollbar-thumb {
   background-color: rgba(0, 113, 128, 0.8);
-  border-radius: 10px;
+  border-radius: 20px;
+  border: 1px solid rgba(2, 96, 109, 0.8);
 }
 
 @media screen and (min-width: 490px) {
