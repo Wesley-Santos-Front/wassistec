@@ -307,14 +307,14 @@ transition: all 0.2s ease-out;
   opacity: 0.79;
 }
 .imag {
-  width: 300px;
+  width: 350px;
   margin-right: 70px;
 }
 .imag img {
   margin-top: 97px;
-  width: 300px;
-  height: 300px;
-  margin-right: 120px;
+  width: 350px;
+  height: 350px;
+  
 
 }
 .imag h2 {
@@ -382,14 +382,13 @@ transition: all 0.2s ease-out;
   opacity: 0.79;
 }
 .imag {
-  width: 350px;
+  width: 400px;
   margin-right: 70px;
 }
 .imag img {
   margin-top: 67px;
-  width: 350px;
-  height: 350px;
-  margin-right: 120px;
+  width: 400px;
+  height: 400px;
 
 }
 .imag h2 {
