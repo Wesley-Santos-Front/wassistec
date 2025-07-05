@@ -11,7 +11,7 @@
   font-weight: bold;
 }
 .flex {
-  width: 480px;
+  width: 440px;
   height: auto;
   display: flex;
   flex-direction: row;
@@ -83,7 +83,7 @@ transition: all 0.2s ease-out;
   font-weight: bold;
 }
 .flex {
-  width: 570px;
+  width: 520px;
   height: auto;
   display: flex;
   flex-direction: row;
@@ -155,7 +155,7 @@ transition: all 0.2s ease-out;
   font-weight: bold;
 }
 .flex {
-  width: 600px;
+  width: 550px;
   height: auto;
   display: flex;
   flex-direction: row;

@@ -11,7 +11,7 @@ const endereco =
   return(
        <div className={style.tit}>
         <h2>Contatos</h2>
-
+      <div className={style.cont}>
        <a href={endereco} target="_blank" rel="noopener noreferrer">
         <div className={style.maps}>
           <iframe
@@ -39,6 +39,7 @@ const endereco =
       <p>@wesle.ycs</p>
       </div>
       </div>
+    </div>
     </div>
   )
 }

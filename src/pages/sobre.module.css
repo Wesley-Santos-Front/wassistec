@@ -1,3 +1,40 @@
+@media screen and (min-width: 488px){
+  .tit {
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 70px;
+}
+.tit h2 {
+  color: #007180;
+  text-align: justify;
+  font-size: 36px;
+  font-weight: bold;
+}
+.conteudo {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 15px auto 0;
+  width: 440px;
+}
+.conteudo h3 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: justify;
+  color: rgba(1, 48, 54, 0.90);
+  margin-top: -2px;
+  font-size: 16px;
+}
+.conteudo h3::first-letter{
+  margin-left: 2em; /* empurra a letra para a direita */
+}
+.conteudo h3:last-child{
+  margin-left: 0px; /* empurra a letra para a direita */
+  text-align: center;
+}
+}
+@media screen and (min-width: 780px){
 .tit {
   display: inline-block;
   margin-top: 50px;
@@ -31,4 +68,5 @@
 .conteudo h3:last-child{
   margin-left: 0px; /* empurra a letra para a direita */
   text-align: center;
+}
 }

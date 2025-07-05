@@ -1,3 +1,194 @@
+@media screen and (min-width: 488px){
+   .tit {
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 70px;
+}
+.tit h2 {
+  color: #007180;
+  text-align: justify;
+  font-size: 36px;
+  font-weight: bold;
+}
+.cont {
+  display: block;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  width: 388px;
+  margin: 0 auto;
+}
+.maps {
+  display: block;
+  border: 2px solid rgba(1, 48, 54, 0.70);
+  border-radius: 8px;
+  overflow: hidden;
+  width: 388px;
+  height: 240px;
+  
+}
+.maps:hover {
+  opacity: 0.9;
+}
+.conta {
+  display: block;
+  margin-top: 20px;
+  
+}
+.flexIcon {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+ .flexIcon p {
+  margin-top: 2.3px;
+  margin-left: 5px;
+  color: #013036;
+  font-size: 15px;
+
+ }
+ .iconWhat {
+  color: green;
+  font-size: 25px;
+ }
+ .iconEmail {
+  color: #CB3C2E;
+  font-size: 25px;
+ }
+ .iconInsta {
+  color:#D033A8;
+  font-size: 25px;
+ }
+}
+
+
+@media screen and (min-width: 680px){
+   .tit {
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 70px;
+}
+.tit h2 {
+  color: #007180;
+  text-align: justify;
+  font-size: 36px;
+  font-weight: bold;
+}
+.cont {
+  display: block;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  width: 500px;
+  margin: 0 auto;
+}
+.maps {
+  display: block;
+  border: 2px solid rgba(1, 48, 54, 0.70);
+  border-radius: 8px;
+  overflow: hidden;
+  width: 500px;
+  height: 240px;
+  
+}
+.maps:hover {
+  opacity: 0.9;
+}
+.conta {
+  display: block;
+  margin-top: 20px;
+  
+}
+.flexIcon {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+ .flexIcon p {
+  margin-top: 2.3px;
+  margin-left: 5px;
+  color: #013036;
+  font-size: 15px;
+
+ }
+ .iconWhat {
+  color: green;
+  font-size: 25px;
+ }
+ .iconEmail {
+  color: #CB3C2E;
+  font-size: 25px;
+ }
+ .iconInsta {
+  color:#D033A8;
+  font-size: 25px;
+ }
+}
+@media screen and (min-width: 980px){
+  .tit {
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 70px;
+  position: none;
+  width: auto;
+}
+.tit h2 {
+  color: #007180;
+  text-align: justify;
+  font-size: 40px;
+  font-weight: bold;
+}
+.cont {
+  display: block;
+  position: none;
+  width: auto;
+  margin-left: 70px;
+}
+.maps {
+  display: block;
+  border: 2px solid rgba(1, 48, 54, 0.70);
+  border-radius: 8px;
+  overflow: hidden;
+  width: 550px;
+  position: absolute;
+  left: 340px;
+  height: 300px;
+}
+.maps:hover {
+  opacity: 0.9;
+}
+.conta {
+  display: block;
+  margin-top: 0;
+  
+}
+.flexIcon {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+ .flexIcon p {
+  margin-top: 2.3px;
+  margin-left: 5px;
+  color: #013036;
+  font-size: 15px;
+
+ }
+ .iconWhat {
+  color: green;
+  font-size: 25px;
+ }
+ .iconEmail {
+  color: #CB3C2E;
+  font-size: 25px;
+ }
+ .iconInsta {
+  color:#D033A8;
+  font-size: 25px;
+ }
+}
+ @media screen and (min-width: 1140px){
+
 .tit {
   display: inline-block;
   margin-top: 50px;
@@ -14,11 +205,10 @@
   border: 2px solid rgba(1, 48, 54, 0.70);
   border-radius: 8px;
   overflow: hidden;
-  max-width: 600px;
+  width: 600px;
   margin: 0 auto;
   position: absolute;
-  left: 0;
-  right: 0;
+  left: 400px;
   height: 300px;
 }
 .maps:hover {
@@ -52,5 +242,4 @@
   color:#D033A8;
   font-size: 25px;
  }
-
-
+}
