@@ -15,6 +15,27 @@ AOS.init();
 function Servicos(){
   return ( 
       <div className={style.tit}>
+        <div className={style.span1}>
+                      <div className={style.men}>
+                        <ul>
+                          <div className={style.ult}>
+                          <a href="./">Home</a>
+                          </div>
+                          <div className={style.ult}>
+                          <a href="./servicos">Serviços</a>
+                          </div>
+                          <div className={style.ult}>
+                          <a href="./orcamentos">Orçamentos</a>
+                          </div>
+                          <div className={style.ult}>
+                          <a href="./contatos">Contatos</a>
+                          </div>
+                          <div className={style.ult}>
+                          <a href="./sobre">Sobre</a>
+                          </div>
+                        </ul>
+                      </div>
+                      </div>
            <h2>Serviços</h2>
            <div className={style.flex}>
             <div className={style.indiv} data-aos="flip-left" data-aos-duration="800">
