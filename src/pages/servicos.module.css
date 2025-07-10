@@ -8,8 +8,7 @@
   border: 1px solid rgba(2, 96, 109, 0.8);
 }
 
-/*Media Screen smartphone 290px */
-/*iphone SE*/
+/*Screen 290px */
 @media screen and (min-width: 290px){
     .tit {
   display: inline-block;
@@ -169,7 +168,7 @@ margin-bottom: 50px;
   
 }
 
-/*Media Screen smartphone 390px */
+/*Screen 390px */
 @media screen and (min-width: 390px), (min-height: 667px){
   .tit {
   display: inline-block;
@@ -282,7 +281,7 @@ margin-bottom: 50px;
   
 }
 
-/*Media Screen smarthphone 488px */
+/*Screen 488px */
 @media screen and (min-width: 488px){
   .tit {
   display: inline-block;
@@ -359,7 +358,7 @@ margin-bottom: 0;
 }
 }
 
-/*Media Screen desktop 658px */
+/*Screen 658px */
 @media screen and (min-width: 658px){
   .tit {
   display: inline-block;
@@ -433,7 +432,7 @@ transition: all 0.2s ease-out;
 }
 }
 
-/*Media Screen desktop 758px */
+/*Screen 758px */
 @media screen and (min-width: 758px){
  .tit {
   display: inline-block;
@@ -507,7 +506,7 @@ transition: all 0.2s ease-out;
 }
 }
 
-/*Media Screen desktop 958px */
+/*Screen 958px */
 @media screen and (min-width: 958px){
   .tit {
   display: inline-block;
@@ -580,7 +579,7 @@ transition: all 0.2s ease-out;
 }
 }
 
-/*Media Screen desktop 1100px */
+/*Screen 1100px */
 @media screen and (min-width: 1100px){
   .tit {
   display: inline-block;
@@ -651,7 +650,7 @@ transition: all 0.2s ease-out;
 }
 }
 
-/*Media Screen desktop 1200px */
+/*Screen 1200px */
 @media screen and (min-width: 1200px){
 .tit {
   display: inline-block;

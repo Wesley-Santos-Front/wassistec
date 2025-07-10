@@ -9,6 +9,7 @@
   border: 1px solid rgba(2, 96, 109, 0.8);
 }
 
+/*Screen 290px*/
 @media screen and (min-width: 290px) {
   .flex {
   display: flex;
@@ -176,6 +177,7 @@ transition: all 0.2s ease-out;
 
   }
 
+  /*Screen 390px*/
 @media screen and (min-width: 390px) {
   .flex {
   display: flex;
@@ -286,6 +288,8 @@ transition: all 0.2s ease-out;
  
   
 }
+
+/*Screen 490px*/
 @media screen and (min-width: 490px) {
   .flex {
   display: flex;
@@ -369,6 +373,8 @@ transition: all 0.2s ease-out;
   text-align: center;
 }
 }
+
+/*Screen 712px*/
 @media screen and (min-width: 712px) {
   .flex {
   display: flex;
@@ -458,7 +464,7 @@ transition: all 0.2s ease-out;
   display: flex;
   flex-direction: column-reverse;
   flex-wrap: wrap;
-  margin: 80px auto;
+  margin: 0px auto;
   width: 100%;
 }
 .container1 {
@@ -537,6 +543,8 @@ transition: all 0.2s ease-out;
 }
 
 }
+
+/*Screen 812px*/
 @media screen and (min-width: 812px) {
   .flex {
   display: flex;
@@ -623,6 +631,8 @@ transition: all 0.2s ease-out;
   margin-left: 79px;
 }
 }
+
+/*Screen 1000px*/
 @media screen and (min-width: 1000px) {
   .flex {
   display: flex;
@@ -697,9 +707,8 @@ transition: all 0.2s ease-out;
 }
 }
 
+/*Screen 1140px*/
 @media screen and (min-width: 1140px){
-  
-
 .flex {
   display: flex;
   flex-direction: row;
