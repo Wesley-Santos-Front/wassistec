@@ -187,3 +187,190 @@ transition: all 0.2s ease-out;
   opacity: 0.79;
 }
 }
+@media (min-width: 1600px) and (min-height: 900px) {
+  .tit {
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 70px;
+}
+.tit h2 {
+  color: #007180;
+  text-align: justify;
+  font-size: 50px;
+  font-weight: bold;
+}
+.main {
+  display: block;
+  width: 400px;
+  margin: 50px auto 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+
+}
+.main select {
+  margin-left: 30px;
+  font-size: 25px;
+  background-color: transparent;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+  text-align: center;
+  color: rgba(1, 48, 54, 0.90);
+  border: none;
+  cursor: pointer;
+}
+.main select:first-child {
+  margin-left: 35px;
+}
+.opt1 option{
+  color: rgba(1, 48, 54, 0.90);
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+}
+.opt2 option{
+  color: rgba(1, 48, 54, 0.90);
+  font-size: 14px;
+  cursor: pointer;
+}
+table {
+   margin-top: 20px;
+   padding: 10px;
+   border: 1px solid rgba(1, 48, 54, 0.50);
+   border-radius: 5px;
+}
+.cabec {
+  position: relative;
+  left: 25px;
+  color: #007180;
+  font-weight: bold;
+  text-align: justify;
+  font-size: 26px;
+}
+.mai {
+  position: relative;
+  left: 15px;
+  color: rgba(1, 48, 54, 0.90);
+  margin-top: 10px;
+  padding: 5px;
+}
+.mai td {
+  font-size: 25px;
+  
+}
+.butt {
+  display: block;
+  text-align: center;
+  margin: 40px auto;
+}
+.butt button {
+  text-align: center;
+width: 400px;
+height: 79px;
+border-radius: 8px;
+border: none;
+background-color: #04acc2;
+color: #fff;
+font-size: 25px;
+cursor: pointer;
+transition: all 0.2s ease-out;
+}
+.butt button:hover {
+  opacity: 0.79;
+}
+}
+@media (min-width: 1920px) and (min-height: 1080px){
+    .tit {
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 70px;
+}
+.tit h2 {
+  color: #007180;
+  text-align: justify;
+  font-size: 60px;
+  font-weight: bold;
+}
+.main {
+  display: block;
+  width: 480px;
+  margin: 50px auto 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+
+}
+.main select {
+  margin-left: 30px;
+  font-size: 30px;
+  background-color: transparent;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+  text-align: center;
+  color: rgba(1, 48, 54, 0.90);
+  border: none;
+  cursor: pointer;
+}
+.main select:first-child {
+  margin-left: 35px;
+}
+.opt1 option{
+  color: rgba(1, 48, 54, 0.90);
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+}
+.opt2 option{
+  color: rgba(1, 48, 54, 0.90);
+  font-size: 14px;
+  cursor: pointer;
+}
+table {
+   margin-top: 20px;
+   padding: 10px;
+   border: 1px solid rgba(1, 48, 54, 0.50);
+   border-radius: 5px;
+}
+.cabec {
+  position: relative;
+  left: 25px;
+  color: #007180;
+  font-weight: bold;
+  text-align: justify;
+  font-size: 26px;
+}
+.mai {
+  position: relative;
+  left: 15px;
+  color: rgba(1, 48, 54, 0.90);
+  margin-top: 10px;
+  padding: 5px;
+}
+.mai td {
+  font-size: 30px;
+  
+}
+.butt {
+  display: block;
+  text-align: center;
+  margin: 40px auto;
+}
+.butt button {
+  text-align: center;
+width: 480px;
+height: 89px;
+border-radius: 8px;
+border: none;
+background-color: #04acc2;
+color: #fff;
+font-size: 30px;
+cursor: pointer;
+transition: all 0.2s ease-out;
+}
+.butt button:hover {
+  opacity: 0.79;
+}
+
+}

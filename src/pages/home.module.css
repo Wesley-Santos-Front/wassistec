@@ -44,7 +44,7 @@
   margin-top: -30px;
 }
 .let p{
-  font-size: 12px;
+  font-size: 13px;
   color: rgba(1, 48, 54, 0.90);
   margin-top: -12px;
   text-align: center;
@@ -54,7 +54,6 @@
 }
 .butt {
  display: block;
- width: 290px;
  text-align: center;
  margin-top: 25px;
 
@@ -92,6 +91,91 @@ transition: all 0.2s ease-out;
   text-align: center;
 }
 }
+
+  @media (min-width: 384px) and (min-height: 640px) {
+     .flex {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  margin: 25px auto;
+  
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 290px;
+  margin: 40px auto 0;
+
+}
+.let {
+  display: inline-block;
+  margin-top: -5px;
+}
+.tit {
+  display: inline-block;
+  margin-top: -40px;
+}
+.tit h2 {
+  color: #007180;
+  text-align: center;
+  font-size: 29px;
+  font-weight: bold;
+}
+.tit h2:last-child{
+  margin-top: -30px;
+}
+.let p{
+  font-size: 13px;
+  color: rgba(1, 48, 54, 0.90);
+  margin-top: -12px;
+  text-align: center;
+}
+.let p:last-child{
+  margin-top: -10px;
+}
+.butt {
+ display: block;
+ text-align: center;
+ margin-top: 25px;
+
+}
+.butt button {
+text-align: center;
+width: 165px;
+height: 54px;
+border-radius: 8px;
+border: none;
+background-color: #04acc2;
+color: #fff;
+font-size: 16px;
+cursor: pointer;
+transition: all 0.2s ease-out;
+}
+.butt button:hover {
+  opacity: 0.79;
+}
+.imag {
+  display: block;
+  width: 210px;
+  margin: 0 auto 0 ;
+}
+.imag img {
+ margin: 30px auto 0;
+  width: 210px;
+  height: 210px;
+
+}
+.imag h2 {
+  color: #007180;
+  font-size: 23px;
+  margin-top: -2px;
+  text-align: center;
+}
+
+  }
+
 @media screen and (min-width: 390px) {
   .flex {
   display: flex;
@@ -127,7 +211,7 @@ transition: all 0.2s ease-out;
   margin-top: -30px;
 }
 .let p{
-  font-size: 12px;
+  font-size: 13px;
   color: rgba(1, 48, 54, 0.90);
   margin-top: -12px;
   text-align: center;
@@ -137,7 +221,6 @@ transition: all 0.2s ease-out;
 }
 .butt {
  display: block;
- width: 350px;
  text-align: center;
  margin-top: 25px;
 
@@ -174,6 +257,34 @@ transition: all 0.2s ease-out;
   margin-top: -2px;
   text-align: center;
 }
+}
+@media screen and (min-height: 740px) {
+  
+}
+@media screen and (min-height: 844px) {
+  .flex {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  margin: 90px auto;
+  
+}
+ 
+}
+@media screen and (min-height: 896px) {
+  .flex {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  margin: 105px auto;
+  
+}
+  
+  
+}
+@media screen and (min-height: 932px) {
+ 
+  
 }
 @media screen and (min-width: 490px) {
   .flex {
@@ -340,6 +451,91 @@ transition: all 0.2s ease-out;
   margin-top: -2px;
   text-align: center;
 }
+
+}
+@media (min-width: 800px) and (min-height: 1280px){
+  .flex {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  margin: 80px auto;
+  width: 100%;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 500px;
+  margin: 25px auto 0;
+
+}
+.let {
+  display: inline-block;
+  margin-top: -5px;
+}
+.tit {
+  display: inline-block;
+  margin-top: -50px;
+}
+.tit h2 {
+  color: #007180;
+  text-align: center;
+  font-size: 51px;
+  font-weight: bold;
+}
+.tit h2:last-child{
+  margin-top: -30px;
+}
+.let p{
+  font-size: 30px;
+  color: rgba(1, 48, 54, 0.90);
+  margin-top: -12px;
+  text-align: center;
+}
+.let p:last-child{
+  margin-top: -15px;
+}
+.butt {
+ display: block;
+ width: 500px;
+ text-align: center;
+ margin-top: 25px;
+
+}
+.butt button {
+text-align: center;
+width: 365px;
+height: 94px;
+border-radius: 8px;
+border: none;
+background-color: #04acc2;
+color: #fff;
+font-size: 30px;
+cursor: pointer;
+transition: all 0.2s ease-out;
+}
+.butt button:hover {
+  opacity: 0.79;
+}
+.imag {
+  display: block;
+  width: 430px;
+  margin: 0 auto 0 ;
+}
+.imag img {
+ margin: 30px auto 0;
+  width: 430px;
+  height: 430px;
+
+}
+.imag h2 {
+  color: #007180;
+  font-size: 40px;
+  margin-top: -2px;
+  text-align: center;
+}
+
 }
 @media screen and (min-width: 812px) {
   .flex {
@@ -573,4 +769,222 @@ transition: all 0.2s ease-out;
   margin-top: -2px;
   margin-left: 106px;
 }
+}
+@media (min-width: 1600px) and (min-height: 900px) {
+  .flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 550px;
+  margin-top: 0px;
+}
+.let {
+  display: inline-block;
+  margin-top: -60px;
+}
+.tit {
+  display: inline-block;
+  margin-top: 100px;
+}
+.tit h2 {
+  color: #007180;
+  text-align: justify;
+  font-size: 65px;
+  font-weight: bold;
+}
+.tit h2:last-child{
+  margin-top: -55px;
+}
+.let p{
+  font-size: 25px;
+  color: rgba(1, 48, 54, 0.90);
+  margin-top: -10px;
+}
+.let p:last-child{
+  margin-top: -10px;
+}
+.butt button {
+width: 400px;
+height: 79px;
+border-radius: 8px;
+border: none;
+background-color: #04acc2;
+color: #fff;
+font-size: 25px;
+cursor: pointer;
+transition: all 0.2s ease-out;
+}
+.butt button:hover {
+  opacity: 0.79;
+}
+.imag {
+  width: 550px;
+  margin-right: 70px;
+}
+.imag img {
+  margin-top: 67px;
+  width: 550px;
+  height: 550px;
+
+}
+.imag h2 {
+  color: #007180;
+  font-size: 42px;
+  margin-top: -2px;
+  margin-left: 156px;
+}
+}
+@media (min-width: 1280px) and (min-height: 1024px){
+    .flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 140px;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 520px;
+  margin-top: 0px;
+}
+.let {
+  display: inline-block;
+  margin-top: -60px;
+}
+.tit {
+  display: inline-block;
+  margin-top: 100px;
+}
+.tit h2 {
+  color: #007180;
+  text-align: justify;
+  font-size: 55px;
+  font-weight: bold;
+}
+.tit h2:last-child{
+  margin-top: -55px;
+}
+.let p{
+  font-size: 20px;
+  color: rgba(1, 48, 54, 0.90);
+  margin-top: -10px;
+}
+.let p:last-child{
+  margin-top: -10px;
+}
+.butt button {
+width: 400px;
+height: 79px;
+border-radius: 8px;
+border: none;
+background-color: #04acc2;
+color: #fff;
+font-size: 25px;
+cursor: pointer;
+transition: all 0.2s ease-out;
+}
+.butt button:hover {
+  opacity: 0.79;
+}
+.imag {
+  width: 500px;
+  margin-right: 70px;
+}
+.imag img {
+  margin-top: 67px;
+  width: 470px;
+  height: 500px;
+
+}
+.imag h2 {
+  color: #007180;
+  font-size: 38px;
+  margin-top: -2px;
+  margin-left: 126px;
+}
+
+}
+
+@media (min-width: 1920px) and (min-height: 1080px){
+    .flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 110px;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 605px;
+  margin-top: 0px;
+}
+.let {
+  display: inline-block;
+  margin-top: -60px;
+}
+.tit {
+  display: inline-block;
+  margin-top: 100px;
+}
+.tit h2 {
+  color: #007180;
+  text-align: justify;
+  font-size: 70px;
+  font-weight: bold;
+}
+.tit h2:last-child{
+  margin-top: -60px;
+}
+.let p{
+  font-size: 30px;
+  color: rgba(1, 48, 54, 0.90);
+}
+.let p:last-child{
+  margin-top: -20px;
+}
+.butt button {
+width: 420px;
+height: 89px;
+border-radius: 8px;
+border: none;
+background-color: #04acc2;
+color: #fff;
+font-size: 30px;
+cursor: pointer;
+transition: all 0.2s ease-out;
+}
+.butt button:hover {
+  opacity: 0.79;
+}
+.imag {
+  width: 620px;
+  margin-right: 70px;
+}
+.imag img {
+  margin-top: 67px;
+  width: 620px;
+  height: 620px;
+
+}
+.imag h2 {
+  color: #007180;
+  font-size: 46px;
+  margin-top: -2px;
+  margin-left: 179px;
+}
+
 }
