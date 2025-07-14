@@ -1,5 +1,5 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Home from './pages/home';
 import Servicos from './pages/servicos';
 import Orcamento from './pages/orcamento';
