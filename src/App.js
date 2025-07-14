@@ -1,4 +1,5 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import React, { useState } from 'react';
 import Home from './pages/home';
 import Servicos from './pages/servicos';
 import Orcamento from './pages/orcamento';
@@ -7,16 +8,21 @@ import Sobre from './pages/sobre';
 import Navbar from './components/navbar';
 
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  function handleToggleMenu() {
+    setMenuOpen(menuOpen => !menuOpen);
+  }
   return (
     <div className="App">
       <Router>
-        <Navbar />
+        <Navbar onToggleMenu={handleToggleMenu}/>
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/servicos' element={<Servicos />} />
-          <Route path='/orcamentos' element={<Orcamento />} />
-          <Route path='/contatos' element={<Contato />} />
-          <Route path='/sobre' element={<Sobre />} />
+          <Route path='/' element={<Home menuOpen={menuOpen} />} />
+          <Route path='/servicos' element={<Servicos menuOpen={menuOpen} />} />
+          <Route path='/orcamentos' element={<Orcamento menuOpen={menuOpen} />} />
+          <Route path='/contatos' element={<Contato menuOpen={menuOpen} />} />
+          <Route path='/sobre' element={<Sobre menuOpen={menuOpen} />} />
         </Routes>
       </Router>
     </div>

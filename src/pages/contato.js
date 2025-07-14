@@ -4,12 +4,13 @@ import { IoLogoWhatsapp } from "react-icons/io";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaInstagram } from "react-icons/fa";
 
-function Contato(){
+function Contato({ menuOpen }){
 const endereco =
     "https://www.google.com/maps/search/?api=1&query=Rua+Acacilia+Capelão+Peres+556,+Coqueiros,+Taquari+-+RS";
 
   return(
        <div className={style.tit}>
+        {menuOpen && (
         <div className={style.span1}>
               <div className={style.men}>
                 <ul>
@@ -31,6 +32,7 @@ const endereco =
                 </ul>
               </div>
               </div>
+        )}
         <h2>Contatos</h2>
       <div className={style.cont}>
        <a href={endereco} target="_blank" rel="noopener noreferrer">

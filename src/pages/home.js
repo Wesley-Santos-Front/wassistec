@@ -1,10 +1,12 @@
 import Logo2 from '../image/logoremove.png';
 import style from './home.module.css'
 
-function Home(){
+function Home({ menuOpen }){
+   
   return (
     <div className={style.flex}>
-      <div className={style.span1}>
+       {menuOpen && (
+     <div className={style.span1}>
       <div className={style.men}>
         <ul>
           <div className={style.ult}>
@@ -25,6 +27,7 @@ function Home(){
         </ul>
       </div>
       </div>
+       )}
     <div className={style.container1}>
       <div className={style.tit}>
       <h2>Assistência</h2>

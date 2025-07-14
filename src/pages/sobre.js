@@ -1,8 +1,9 @@
 import style from './sobre.module.css';
 
-function Sobre(){
+function Sobre({ menuOpen }){
   return(
     <div className={style.tit}>
+      {menuOpen && (
        <div className={style.span1}>
                             <div className={style.men}>
                               <ul>
@@ -24,6 +25,7 @@ function Sobre(){
                               </ul>
                             </div>
                             </div>
+      )}
            <h2>Sobre</h2>
       <div className={style.conteudo}>
         <h3>Sou técnico especializado em manutenção de smartphones, com experiência em troca de telas, baterias,

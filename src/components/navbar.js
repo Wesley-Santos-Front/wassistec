@@ -2,12 +2,20 @@ import style from './navbar.module.css';
 import { Link } from "react-router-dom";
 import Logo from '../image/logo1.png'
 import { IoMenu } from "react-icons/io5";
+import '../pages/home';
+import '../pages/servicos';
+import '../pages/orcamento';
+import '../pages/contato';
+import '../pages/sobre';
 
-function Navbar(){
+function Navbar({ onToggleMenu }){
+
+   
+
   return(
     <header className={style.head}>
       <div className={style.menu}>
-        <button className={style.menuBut}>
+        <button className={style.menuBut} onClick={onToggleMenu} >
         <IoMenu className={style.menuIcon}/>
         </button>
       </div>

@@ -1,7 +1,7 @@
 import style from './orcamento.module.css';
 import { useState } from "react";
 
-function Orcamento(){
+function Orcamento({ menuOpen }){
 
   const dados = [
     { tipo: "Selecione", marca: "Marca"},
@@ -209,6 +209,7 @@ function Orcamento(){
   return (
     
       <div className={style.tit}>
+               {menuOpen && (
           <div className={style.span1}>
               <div className={style.men}>
                 <ul>
@@ -230,6 +231,7 @@ function Orcamento(){
                 </ul>
               </div>
               </div>
+               )}
                 <h2>Orçamentos</h2>
 
                 <div className={style.main}>

@@ -12,9 +12,10 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 AOS.init();
 
 
-function Servicos(){
+function Servicos({ menuOpen }){
   return ( 
       <div className={style.tit}>
+        {menuOpen && (
         <div className={style.span1}>
                       <div className={style.men}>
                         <ul>
@@ -36,6 +37,7 @@ function Servicos(){
                         </ul>
                       </div>
                       </div>
+        )}
            <h2>Serviços</h2>
            <div className={style.flex}>
             <div className={style.indiv} data-aos="flip-left" data-aos-duration="800">

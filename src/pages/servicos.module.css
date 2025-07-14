@@ -7,12 +7,25 @@
   border-radius: 20px;
   border: 1px solid rgba(2, 96, 109, 0.8);
 }
+@keyframes menu1 {
+  0% {
+    right: -100%;
+  }
+  50% {
+    right: -50%;
+  }
+  100% {
+    right: 0;
+  }
+  
+}
 
 /*Screen 290px */
 @media screen and (min-width: 290px){
     .tit {
   display: inline-block;
   z-index: 1000;
+  margin-top: 69px;
 }
 .tit h2 {
   color: #007180;
@@ -23,14 +36,14 @@
   margin-left: 40px;
 }
 .span1 {
-  display: none;
+  display: block;
   width: 100%;
   height: 100vh;
   background-color: rgba(0, 113, 128, 0.40);
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
-  z-index: 1200;
+  z-index: 900;
 }
 .men {
     display: flex;
@@ -40,17 +53,18 @@
     position: absolute;
     top: 69px;
     right: 0;
-    height: 180px;
+    height: 260px;
     background-color: rgb(0, 113, 128, 0.80);
     border: 1px solid rgb(1, 96, 109);
     border-radius: 0 0 0 5px;
+    animation: menu1 1s forwards;
 
   }
   .ult:first-child {
     display: block;
   }
   .ult {
-    margin-top: 9px;
+    margin-top: 17px;
   }
   .ult a {
     text-decoration: none;
@@ -58,7 +72,7 @@
     color: rgba(255, 255, 255, 0.90);
     font-weight: bold;
     opacity: 1;
-    font-size: 17px;
+    font-size: 20px;
   }
 .flex {
   display: flex;
@@ -324,7 +338,7 @@ margin-bottom: 50px;
 @media screen and (min-width: 488px){
   .tit {
   display: inline-block;
-  margin-top: 40px;
+  margin-top: 109px;
   margin-left: 70px;
 }
 .tit h2 {
@@ -401,7 +415,7 @@ margin-bottom: 0;
 @media screen and (min-width: 658px){
   .tit {
   display: inline-block;
-  margin-top: 40px;
+  margin-top: 109px;
   margin-left: 70px;
 }
 .tit h2 {
@@ -472,10 +486,10 @@ transition: all 0.2s ease-out;
 }
 
 /*Screen 758px */
-@media screen and (min-width: 758px){
+@media screen and (min-width: 712px){
  .tit {
   display: inline-block;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-left: 70px;
 }
 .tit h2 {
@@ -549,7 +563,7 @@ transition: all 0.2s ease-out;
 @media screen and (min-width: 958px){
   .tit {
   display: inline-block;
-  margin-top: 50px;
+  margin-top: 20px;
   margin-left: 70px;
 }
 .tit h2 {
@@ -565,7 +579,7 @@ transition: all 0.2s ease-out;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 60px auto 0 ;
+  margin: 50px auto 0 ;
   position: absolute;
   left: 0;
   right: 0;
@@ -622,7 +636,7 @@ transition: all 0.2s ease-out;
 @media screen and (min-width: 1100px){
   .tit {
   display: inline-block;
-  margin-top: 50px;
+  margin-top: 20px;
   margin-left: 70px;
 }
 .tit h2 {
@@ -693,7 +707,7 @@ transition: all 0.2s ease-out;
 @media screen and (min-width: 1200px){
 .tit {
   display: inline-block;
-  margin-top: 50px;
+  margin-top: 20px;
   margin-left: 70px;
 }
 .tit h2 {
