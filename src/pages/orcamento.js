@@ -235,6 +235,7 @@ function Orcamento({ menuOpen }){
     { tipo: "Bateria", marca: "Xiaomi", modelo: "Redmi 13C", valor: 180 },
     { tipo: "Bateria", marca: "Xiaomi", modelo: "Redmi 14C", valor: 190 },
     { tipo: "Bateria", marca: "Xiaomi", modelo: "Redmi 14C", valor: 190 },
+    { tipo: "Bateria", marca: "Xiaomi", modelo: "E mais...", valor: 0},
 
     { tipo: "Tela", marca: "Iphone", modelo: "6 Plus", valor: 200 },
     { tipo: "Tela", marca: "Iphone", modelo: "6s", valor: 200 },
