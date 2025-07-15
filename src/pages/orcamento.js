@@ -212,6 +212,7 @@ function Orcamento({ menuOpen }){
     { tipo: "Tela", marca: "Xiaomi", modelo: "Redmi 12C", valor: 220 },
     { tipo: "Tela", marca: "Xiaomi", modelo: "Redmi 13C", valor: 240 },
     { tipo: "Tela", marca: "Xiaomi", modelo: "Redmi 14C", valor: 240 },
+    { tipo: "Tela", marca: "Xiaomi", modelo: "E muito mais...", valor: 0},
     { tipo: "Bateria", marca: "Xiaomi", modelo: "Mi 8", valor: 170 },
     { tipo: "Bateria", marca: "Xiaomi", modelo: "Mi 8 Lite", valor: 170 },
     { tipo: "Bateria", marca: "Xiaomi", modelo: "Mi 9", valor: 180 },
@@ -233,7 +234,7 @@ function Orcamento({ menuOpen }){
     { tipo: "Bateria", marca: "Xiaomi", modelo: "Redmi 12C", valor: 180 },
     { tipo: "Bateria", marca: "Xiaomi", modelo: "Redmi 13C", valor: 180 },
     { tipo: "Bateria", marca: "Xiaomi", modelo: "Redmi 14C", valor: 190 },
-    { tipo: "Bateria", marca: "Xiaomi", modelo: "E mais...", valor: 0},
+    { tipo: "Bateria", marca: "Xiaomi", modelo: "E muito mais...", valor: 0},
 
     { tipo: "Tela", marca: "Iphone", modelo: "6 Plus", valor: 200 },
     { tipo: "Tela", marca: "Iphone", modelo: "6s", valor: 200 },
