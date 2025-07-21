@@ -86,7 +86,7 @@ function Orcamento({ menuOpen }){
     { tipo: "Tela", marca: "Motorola", modelo: "Moto E6 play", valor: 190},
     { tipo: "Tela", marca: "Motorola", modelo: "Moto E6s", valor: 190},
     { tipo: "Tela", marca: "Motorola", modelo: "Moto E7 power", valor: 180},
-    { tipo: "Tela", marca: "Motorola", modelo: "Moto E13", valor: 190},
+    { tipo: "Tela", marca: "Motorola", modelo: "Moto E13", valor: 220},
     { tipo: "Tela", marca: "Motorola", modelo: "Moto E20", valor: 200},
     { tipo: "Tela", marca: "Motorola", modelo: "Moto E22", valor: 190},
     { tipo: "Tela", marca: "Motorola", modelo: "Moto E40", valor: 200},
